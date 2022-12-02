@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <script>
+        //Question a
+        let side = 9;
+        let diagonal = Math.sqrt(2 * (side * side));
+
+        console.log(diagonal);
+
+        //Question b
+        let side1 = 5;
+        let side2 = 6;
+        let side3 = 7;
+        let s = (side1 + side2 + side3) / 2;
+        let area = Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
+
+        console.log(area);
+
+        //Question c
+        let radius = 4;
+        let circumference = 2 * Math.PI * radius;
+        let area2 = Math.PI * (radius * radius);
+
+        console.log("Circumference: ", circumference);
+        console.log("Surface: ", area2);
+
+    </script>
+</body>
+</html>
