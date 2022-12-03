@@ -1,7 +1,7 @@
 const choices = ["rock", "paper", "scissors"];
 
 function computerPlay() {
-  return ["paper", "scissors", "rock"][(Math.random() * 3)];
+  return choices[Math.floor(Math.random() * choices.length)];
 }
 
 function game() {
